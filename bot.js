@@ -8,6 +8,6 @@ bot.on('message', (msg) => {
   const messageText = msg.text;
 
   if (messageText === '/start') {
-    bot.sendMessage(chatId, 'Welcome to the bot!');
+    bot.sendMessage(chatId, 'Welcome to the bot! @juanxin');
   }
 });
